@@ -17,4 +17,6 @@
 // After that I'll join it again 
 // I can then use Number to put it back in a number or wrap everything in a parseInt and return that
 
-
+function descendingOrder(n) {
+    return parseInt(n.toString().split("").sort().reverse().join(""));
+  }
